@@ -48,13 +48,7 @@ st.sidebar.write(''' Visit us@ Suite 19 Muneerat Plaza, Opp Lincoln College. Kur
 
 @st.cache_data
 def get_pay_data():
-    """Grab GDP data from a CSV file.
-
-    This uses caching to avoid having to read the file every time. If we were
-    reading from an HTTP endpoint instead of a file, it's a good idea to set
-    a maximum age to the cache with the TTL argument: @st.cache_data(ttl='1d')
-    """
-
+    
     # Instead of a CSV on disk, you could read from an HTTP endpoint here too.
     
     
